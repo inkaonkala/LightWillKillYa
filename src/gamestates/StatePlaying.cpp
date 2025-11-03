@@ -263,9 +263,9 @@ void StatePlaying::render(sf::RenderTarget& target) const
 			const sf::Font* font = ResourceManager::getOrLoadFont("Lavigne.ttf");
 			if (font)
 			{
-			    sf::Text winText(*font, "You reached the darkness!", 80);
+			    sf::Text winText(*font, "You reached the darkness!", 60);
 			    winText.setFillColor(sf::Color::White);
-			    winText.setPosition({260.f, 400.f});
+			    winText.setPosition({260.f, 200.f});
 			    target.draw(winText);
 			}
 	}
